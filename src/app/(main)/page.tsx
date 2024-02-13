@@ -1,3 +1,4 @@
+import { Badge } from "@ui/badge";
 import { Button } from "@ui/button";
 import { Code2, Component, Palette } from "lucide-react";
 import Link from "next/link";
@@ -6,6 +7,8 @@ export default function Home() {
   return (
     <div>
       <section className="grid place-content-center place-items-center gap-6 text-center">
+        <Badge size="sm">Minimal Template</Badge>
+
         <h1>
           Next.js 14 Open Source Playground: <br />
           Crafting Modern Web Experiences
@@ -17,9 +20,15 @@ export default function Home() {
           future of web development!
         </p>
 
-        <Button variant="outline" className="rounded-full">
-          <Link href="/">GitHub</Link>
-        </Button>
+        <div className="flex items-center gap-3">
+          <Button className="rounded-full">
+            <Link href="/login">Get Started</Link>
+          </Button>
+
+          <Button variant="outline" className="rounded-full">
+            <a href="https://github.com/SarathAdhi/next-level-ui">GitHub</a>
+          </Button>
+        </div>
       </section>
 
       <section className="space-y-12">
