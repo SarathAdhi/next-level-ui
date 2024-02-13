@@ -12,6 +12,7 @@ Every line of code is open source, offering a collaborative learning experience.
 
 - Nextjs 14 (latest)
 - App router
+- Dark, Light and System - Color theme mode
 - SEO Optimized
 - Styled using **Tailwind CSS**
 - UI Components built using **Shadcn UI (Radix UI)**
