@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
   description:
     "Blazing-fast, interactive app built with latest web tech (Next.js 14). Modern design (Shadcn, Tailwind CSS). Open-source & yours to explore!",
   url: baseUrl,
-  ogImage: `${baseUrl}/open-graph.jpg`,
+  ogImage: `${baseUrl}/open-graph.png`,
   links: {
     twitter: "https://twitter.com/AdhithyaSarath",
     github: "https://github.com/SarathAdhi",
